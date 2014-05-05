@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
     const int init = 0;
     int i = init;
     QPixmap pix(path + "logo" + QString::number(i) + ".png");
-    for (; i < init + 1; ++i) {
+    for (; i < init + 1000; ++i) {
         save_cache(cache, pix);
         pix = load_cache(cache);
     }
