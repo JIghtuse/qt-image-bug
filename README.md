@@ -1,5 +1,7 @@
 # QT image fading bug
-Trying to determine if this is a bug or not.
+
+[Bugreport](https://bugreports.qt-project.org/browse/QTBUG-38764) - resolved and
+closed.
 
 Building:
 
